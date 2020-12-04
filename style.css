@@ -32,12 +32,12 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   width: 100%;
   min-width: 320px;
   height: 334px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 header img {
   width: 150px;
@@ -58,19 +58,19 @@ header img {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--just-white)
+  color: var(--just-white);
 }
-.header--title-container p{
-margin-top: 25px;
-font-size: 1.4rem;
-font-weight: 500;
-line-height: 1.8rem;
-color: var(--soft-orange);
+.header--title-container p {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
 }
 
 .header--title-container .header--button {
   position: absolute;
-  left: calc(50% - 229px/2);
+  left: calc(50% - 229px / 2);
   top: 270px;
   display: block;
   margin-top: 35px;
@@ -79,37 +79,64 @@ color: var(--soft-orange);
   height: 48px;
   background-color: var(--off-white);
   /* Sombra */
-  box-shadow: 0 4px 8px rgba(89,73,30,0.16);
-  border: none; 
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
   border-radius: 5px;
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
   color: var(--black);
 }
-.header--button span{
-    display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url('./assets/iconos/header_arrow_down.svg');
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("./assets/iconos/header_arrow_down.svg");
 }
 main {
-    width: 100%;
-    height: auto;
-    /*la altura la define el contenido*/ 
-    background-color: var(--off-white);
+  width: 100%;
+  height: auto;
+  /*la altura la define el contenido*/
+  background-color: var(--off-white);
 }
 .main-exchange-container {
-    width: 100%;
-    height: auto;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
 }
-.main-exchange-container--title{
-    width: 90%;
-    min-width: 288px;
-    max-width: 900px;
-    margin: 0 auto;
+.main-exchange-container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.main-exchange-container .backgroundImg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url("./assets/imagenes/bitcoin.svg") center/cover no-repeat;
+  /* En imagenes background las buenas practicas agrecar que siempre cubra el div que se vea desde el centro y que no repita la imagen si es que es mas chica que el div*/
+  /*
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  */
+}
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.main-exchange-container p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
 }
