@@ -206,7 +206,7 @@ main {
   line-height: 1.7rem;
   color: #757575;
 }
-.currency-table--container .trending-up ,
+.currency-table--container .trending-up,
 .currency-table--container .trending-down {
   display: inline-block;
   width: 15px;
@@ -224,20 +224,39 @@ main {
 }
 .commission-table--date,
 .currency-table--date {
-width: 230px;
-height: 30px;
-margin: 0 auto;
-margin-top: 15px;
-padding: 8px;
-background: var(--soft-orange);
-border-radius: 8px;
+  width: 230px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background: var(--soft-orange);
+  border-radius: 8px;
 }
-.commission-table--date{
-background: var(--soft-blue);
+.commission-table--date {
+  background: var(--soft-blue);
 }
 .commission-table--date p,
 .currency-table--date p {
-font-size: 1.2rem;
-line-height: 1.5rem;
-color: var(--warm-black);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+.logo-separador {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url("./assets/iconos/logo-separador.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
