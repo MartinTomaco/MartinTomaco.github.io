@@ -140,6 +140,7 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-commission-table,
 .main-currency-table {
     width: 70%;
     min-width: 235px;
@@ -148,6 +149,7 @@ main {
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
+.main-commission-table .commission-table--title,
 .main-currency-table .currency-table--title {
  margin-bottom: 15px;
  font-family: "DM Sans", sans-serif;
@@ -155,6 +157,9 @@ main {
  font-weight: bold;
  line-height: 2.3rem;
  color: var(--bitcoin-orange);
+}
+.main-commission-table .commission-table--title{
+  color:var(--secondary-blue);
 }
 .currency-table--container{
 width: 90%;
