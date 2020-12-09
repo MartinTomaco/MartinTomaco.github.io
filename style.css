@@ -441,11 +441,11 @@ main {
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--black);
-  background: #faf8f7;
-  border: 2px solid #f7931a;
+  background: var(--off-white);
+  border: 2px solid var(--bitcoin-orange);
   border-radius: 4px;
 }
-.plan-card--ca span{
+.plan-card--ca span {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -454,4 +454,12 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.plans-container--card__premium > p {
+  background: linear-gradient(
+    241deg,
+    var(--secondary-blue) 0%,
+    var(--bitcoin-orange) 21%
+  );
+  color: #f0f5f9;
 }
