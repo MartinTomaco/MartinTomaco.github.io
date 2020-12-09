@@ -376,3 +376,54 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
+.plans-container--slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans-container--card {
+  width: 190px;
+  min-width: 190px;
+  min-height: 247px;
+  background: var(--just-white);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 8px;
+}
+.plans-container--card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans-container--card > p {
+  position: absolute;
+  top: -15px;
+  padding: 8px;
+  width: 101px;
+  height: 31px;
+  /* font-family: "Inter", sans-serif; */
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  background: var(--bitcoin-orange);
+  color: var(--just-white);
+  border-radius: 8px;
+}
+.plans-container--card > div > h3 {
+  margin-top: 31px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+.plans-container--card .dolar_sign{
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.plans-container--card .price {
+font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 63px;
+}
