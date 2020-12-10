@@ -289,7 +289,7 @@ main {
   min-width: 288px;
   max-width: 400px;
   min-height: 152px;
-  /* Al poner el min-height si el texto es mas largo se alarga sin causar overflow */
+  /* Al poner el min-height en lugar de height si el texto es mas largo se alarga sin causar overflow */
   padding: 16px;
   margin: 16px auto;
   background: #282623;
